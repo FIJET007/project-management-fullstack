@@ -1,4 +1,4 @@
-
+"use client";
 
 import Navbar from "@/components/navbar";
 import { Badge } from "@/components/ui/badge";
