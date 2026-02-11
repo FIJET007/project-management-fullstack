@@ -124,6 +124,8 @@ export default function DashboardPage() {
       <main className="container mx-auto px-4 py-6 sm:py-8">
         <div className="mb-6 sm:mb-8">
           <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">
+            {/* this what helps clerk identify which user is 
+            log it so it can welcome the user */}
             Welcome back,{" "}
             {user?.firstName ?? user?.emailAddresses[0].emailAddress}! 👋
           </h1>
