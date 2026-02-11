@@ -39,8 +39,9 @@ export default function Navbar({
         <div className="container mx-auto px-4 py-3 sm:py-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <Trello className="h-6 w-6 sm:h-8 sm:w-8 text-blue-600" />
+            {/* the name of the website on the navbar */}
             <span className="text-xl sm:text-2xl font-bold text-gray-900">
-              Trello Clone
+              Taskora
             </span>
           </div>
 
@@ -140,6 +141,7 @@ export default function Navbar({
             </div>
           ) : (
             <div>
+              {/* the sign up and sign in button for the navbar */}
               <SignInButton>
                 <Button
                   variant="ghost"
