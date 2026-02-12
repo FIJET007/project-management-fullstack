@@ -1,0 +1,22 @@
+name of the website taskora 
+
+tech stack 
+supabase 
+clerk 
+next.js with alot of dependencies 
+
+CLERK
+about clerk were using the john doe account 
+username - doe29659@gmail.com
+password - mymxoj34
+
+SUPABASE
+we are also using the john doe account 
+project name - Taskora_Database
+
+database password - XCZwFZ1lveUbMw61
+
+where i stopped time -3:30:00
+
+the stuff from clerk to supabase
+https://clean-egret-37.clerk.accounts.dev
